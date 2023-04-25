@@ -4,7 +4,7 @@ class HomePage {
     cy.get('[class="card-title"]')
       .contains('Peticionar')
       .click()
-    cy.contains('Para peticionar favor inserir o número do procedimento no campo ao lado')
+    cy.contains('Para peticionar favor inserir o número do procedimento.')
       .should('be.visible')
   }
 

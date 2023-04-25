@@ -12,6 +12,6 @@ describe('Peticionamentos', () => {
     PeticionarPage.preencherFeito();
     PeticionarPage.uploadDocumento();
     PeticionarPage.confirmarPeticionamento();
-    // ProcedimentosPage.validarPeticionamento();
+    ProcedimentosPage.validarPeticionamento();
   });
 });

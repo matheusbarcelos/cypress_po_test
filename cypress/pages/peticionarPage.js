@@ -1,7 +1,6 @@
 class PeticionarPage {
 
     preencherFeito(){
-      cy.wait(1000)
       cy.get('input[name="numero"]')
         .clear()
         .type(Cypress.env('feito'), { delay: 40})

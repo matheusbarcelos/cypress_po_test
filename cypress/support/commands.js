@@ -22,7 +22,17 @@ Cypress.Commands.add('login', () => {
 
     cy.session(cpf, login, options)
     cy.visit('/');
-    cy.wait(4000)
+   
+    cy.request('/')
+      .its('body')
+      .then(html => {
+        const $li = Cypress.$(html).find('li')
+        expect($li)
+          .to.have.property('length')
+          .equal(19)
+      })
+
+    
 })
 
 

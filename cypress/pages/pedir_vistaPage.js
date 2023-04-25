@@ -1,7 +1,6 @@
 class PedirVistaPage {
 
   preecherFeito(){
-    cy.wait(1000)
     cy.get('input[name="numero"]')
       .type(Cypress.env('feito'), { delay: 40})
     cy.get('.card-actions > .btn')

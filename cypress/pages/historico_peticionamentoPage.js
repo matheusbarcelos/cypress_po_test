@@ -8,10 +8,10 @@ class HistoricoPeticionamentoPage {
    }
 
    efetuarDownloadDocumento(){
-    cy.xpath('//*[@class="w-20"]//label[@title="Documentos"]')
+    cy.xpath('//*[@class="w-14 lg:w-20"]//label[@title="Documentos"]')
       .first()
       .click()
-    cy.xpath('//*[@class="w-20"]//label[@title="Documentos"]')
+    cy.xpath('//*[@class="w-14 lg:w-20"]//label[@title="Documentos"]')
       .first()
       .click()
       cy.get('[title="Baixar Documento"]')
