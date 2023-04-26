@@ -31,8 +31,8 @@ Cypress.Commands.add('login', () => {
           .to.have.property('length')
           .equal(19)
       })
-
     
+    cy.wait(3000)
 })
 
 

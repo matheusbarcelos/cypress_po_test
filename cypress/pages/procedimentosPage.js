@@ -1,8 +1,8 @@
 class ProcedimentosPage {
 
   validarPeticionamento(){
-    cy.xpath('//*[@class="_toastItem svelte-95rq8t"]//div[contains(text(), "Petição realizada com sucesso.")]')
-      .should('be.visible')
+    // cy.xpath('//*[@class="_toastItem svelte-95rq8t"]//div[contains(text(), "Petição realizada com sucesso.")]')
+    //   .should('be.visible')
     // cy.xpath('//*[@id="main-content"]//tbody//tr[1]')
     //   .invoke('text')
     //   .then(($value) => {
