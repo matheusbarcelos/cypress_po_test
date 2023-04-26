@@ -9,6 +9,6 @@ describe('Pedidos de Vista', () => {
   it('Pedido de Vista em análise', () => {
     HomePage.clickCardPedirVista();
     PedirVista.preecherFeito();
-    // PedirVista.validarPedidoEmAnalise();
+    PedirVista.validarPedidoEmAnalise();
   });
 })

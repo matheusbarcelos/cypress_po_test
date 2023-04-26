@@ -36,7 +36,7 @@ module.exports = defineConfig({
       "feito": "041605200082065202322",
       "id_feito": "640b809585a81760d553b695",
       "feito_vinculado": "041605200081488202381",
-      "pedido_analise": "Esse procedimento possui um pedido em análise",
+      "pedido_analise": " Você já tem um pedido de vista para esse procedimento em análise!",
        "valor_documento": "SOLICITAÇÃO DE ATUAÇÃO (SA) Nº: 176/2022",
       "mongodb": {
         "uri": "mongodb://mongodb-des.mpmg.mp.br:27017/?directConnection=true",

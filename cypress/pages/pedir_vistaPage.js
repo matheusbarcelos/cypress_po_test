@@ -8,7 +8,7 @@ class PedirVistaPage {
   }
 
   validarPedidoEmAnalise(){
-    cy.get('.bx--inline-notification__title')
+    cy.get('.alert')
         .invoke('text')
         .then(($value) => {
             expect($value).to.equal(Cypress.env('pedido_analise'))
