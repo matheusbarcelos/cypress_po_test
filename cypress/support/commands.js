@@ -32,7 +32,7 @@ Cypress.Commands.add('login', () => {
           .equal(19)
       })
     
-    cy.wait(2000)
+    cy.wait(3000)
 })
 
 
