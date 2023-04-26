@@ -21,7 +21,7 @@ Cypress.Commands.add('login', () => {
     const options = { cacheAcrossSpecs: true }
 
     cy.session(cpf, login, options)
-    cy.visit('/');
+     cy.visit('/');
    
     cy.request('/')
       .its('body')
@@ -32,7 +32,7 @@ Cypress.Commands.add('login', () => {
           .equal(19)
       })
     
-    cy.wait(3000)
+    cy.wait(2000)
 })
 
 

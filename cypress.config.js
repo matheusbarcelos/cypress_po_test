@@ -28,6 +28,7 @@ module.exports = defineConfig({
       })
       return config; 
     },
+    testIsolation: false,
     baseUrl: 'http://matrix-des.mpmg.mp.br:3000/',
     "env": {
       "cpf": "12024991637",
