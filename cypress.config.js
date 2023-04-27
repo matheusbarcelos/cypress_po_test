@@ -43,6 +43,6 @@ module.exports = defineConfig({
         "database": "uno",
       }
     },
-    videoCompression: 1,
+    videoCompression: false,
   },
 });

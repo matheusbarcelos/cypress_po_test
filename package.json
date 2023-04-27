@@ -4,7 +4,7 @@
   "description": "Automation Promotoria Online",
   "scripts": {
     "open": "cypress open",
-    "test": "cypress run --env allure=true,allureAddVideoOnPass=true"
+    "test": "cypress run --browser chrome --env allure=true,allureAddVideoOnPass=true"
   },
   "author": "Matheus Barcelos",
   "license": "ISC",
